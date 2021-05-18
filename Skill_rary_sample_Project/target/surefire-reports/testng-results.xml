@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-18T14:22:03Z" name="Command line suite" finished-at="2021-05-18T14:22:03Z" duration-ms="106">
+    <groups>
+      <group name="regressionTest">
+        <method signature="MofiyUSerTest.modifyUSerTest()[pri:0, instance:pac1.MofiyUSerTest@72a7c7e0]" name="modifyUSerTest" class="pac1.MofiyUSerTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateUSerTest.createUSerTest()[pri:0, instance:pac1.CreateUSerTest@1622f1b]" name="createUSerTest" class="pac1.CreateUSerTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2021-05-18T14:22:03Z" name="Command line test" finished-at="2021-05-18T14:22:03Z" duration-ms="106">
+      <class name="pac1.MofiyUSerTest">
+        <test-method signature="modifyUSerTest()[pri:0, instance:pac1.MofiyUSerTest@72a7c7e0]" started-at="2021-05-18T14:22:03Z" name="modifyUSerTest" finished-at="2021-05-18T14:22:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUSerTest -->
+      </class> <!-- pac1.MofiyUSerTest -->
+      <class name="pac1.CreateUSerTest">
+        <test-method signature="createUSerTest()[pri:0, instance:pac1.CreateUSerTest@1622f1b]" started-at="2021-05-18T14:22:03Z" name="createUSerTest" finished-at="2021-05-18T14:22:03Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUSerTest -->
+      </class> <!-- pac1.CreateUSerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
